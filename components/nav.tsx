@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "../styles/nav.module.scss";
 
 function Nav() {
@@ -6,19 +7,19 @@ function Nav() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.item}>
-          <a href="/" className={styles.link}>
+          <Link href="/" className={styles.link}>
             Home
-          </a>
+          </Link>
         </li>
         <li className={styles.item}>
-          <a href="/work" className={styles.link}>
+          <Link href="/work" className={styles.link}>
             Experience
-          </a>
+          </Link>
         </li>
         <li className={styles.item}>
-          <a href="/me" className={styles.link}>
+          <Link href="/me" className={styles.link}>
             About
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

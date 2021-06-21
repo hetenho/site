@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.appContainer}>
       <header className={styles.header}>
-        <Image src={logo} width="32" height="50" />
+        <Image src={logo} width="32" height="50" alt="Hetenho logo" />
         <Nav />
       </header>
       <main>

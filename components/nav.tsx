@@ -7,18 +7,18 @@ function Nav() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.item}>
-          <Link href="/" className={styles.link}>
-            Home
+          <Link href="/">
+            <a className={styles.link}>Home</a>
           </Link>
         </li>
         <li className={styles.item}>
-          <Link href="/work" className={styles.link}>
-            Experience
+          <Link href="/work">
+            <a className={styles.link}>Experience</a>
           </Link>
         </li>
         <li className={styles.item}>
-          <Link href="/me" className={styles.link}>
-            About
+          <Link href="/me">
+            <a className={styles.link}>About</a>
           </Link>
         </li>
       </ul>

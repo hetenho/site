@@ -10,14 +10,11 @@
 
 .item {
   list-style: none;
-  margin: 0;
+  margin: 0 1rem;
   transition: all 0.15s ease-in-out;
 
   &:active {
     transform: translateY(3px);
-  }
-  @media screen and (min-width: 540px) {
-    margin: 0 1rem;
   }
 
   @media screen and (min-width: 800px) {
